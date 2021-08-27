@@ -1,0 +1,19 @@
+﻿<Window x:Class="SystemProgrammingLesson6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemProgrammingLesson6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Button x:Name="startBtn" Click="startBtn_Click" FontSize="14">Start</Button>
+        </StackPanel>
+        <TextBlock Name="dateLbl" Grid.Row="1" Foreground="Black" FontSize="72" VerticalAlignment="Center">37284238</TextBlock>
+    </Grid>
+</Window>
